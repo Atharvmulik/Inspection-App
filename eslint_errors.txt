@@ -1,0 +1,160 @@
+
+> inspectionofficerappnew@1.0.0 lint
+> expo lint
+
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\app\(tabs)\_layout.tsx
+  1:22  error  Unable to resolve path to module 'expo-router'                  import/no-unresolved
+  4:27  error  Unable to resolve path to module '@/components/haptic-tab'      import/no-unresolved
+  5:28  error  Unable to resolve path to module '@/components/ui/icon-symbol'  import/no-unresolved
+  6:24  error  Unable to resolve path to module '@/constants/theme'            import/no-unresolved
+  7:32  error  Unable to resolve path to module '@/hooks/use-color-scheme'     import/no-unresolved
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\app\(tabs)\explore.tsx
+   4:29  error  Unable to resolve path to module '@/components/ui/collapsible'        import/no-unresolved
+   5:30  error  Unable to resolve path to module '@/components/external-link'         import/no-unresolved
+   6:32  error  Unable to resolve path to module '@/components/parallax-scroll-view'  import/no-unresolved
+   7:28  error  Unable to resolve path to module '@/components/themed-text'           import/no-unresolved
+   8:28  error  Unable to resolve path to module '@/components/themed-view'           import/no-unresolved
+   9:28  error  Unable to resolve path to module '@/components/ui/icon-symbol'        import/no-unresolved
+  10:23  error  Unable to resolve path to module '@/constants/theme'                  import/no-unresolved
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\app\(tabs)\index.tsx
+  4:27  error  Unable to resolve path to module '@/components/hello-wave'            import/no-unresolved
+  5:32  error  Unable to resolve path to module '@/components/parallax-scroll-view'  import/no-unresolved
+  6:28  error  Unable to resolve path to module '@/components/themed-text'           import/no-unresolved
+  7:28  error  Unable to resolve path to module '@/components/themed-view'           import/no-unresolved
+  8:22  error  Unable to resolve path to module 'expo-router'                        import/no-unresolved
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\app\_layout.tsx
+  2:23  error  Unable to resolve path to module 'expo-router'               import/no-unresolved
+  6:32  error  Unable to resolve path to module '@/hooks/use-color-scheme'  import/no-unresolved
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\app\modal.tsx
+  1:22  error  Unable to resolve path to module 'expo-router'               import/no-unresolved
+  4:28  error  Unable to resolve path to module '@/components/themed-text'  import/no-unresolved
+  5:28  error  Unable to resolve path to module '@/components/themed-view'  import/no-unresolved
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\components\Button.tsx
+  7:3  warning  'withTiming' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\components\Card.tsx
+  30:9  warning  'elevationAnim' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\components\EmptyState.tsx
+  5:8  warning  Using exported name 'Button' as identifier for default import  import/no-named-as-default
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\components\LoadingShimmer.tsx
+   10:47  warning  'D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\theme\index.ts' imported multiple times                               import/no-duplicates
+   35:6   warning  React Hook React.useEffect has a missing dependency: 'shimmerProgress'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  189:1   warning  Import in body of module; reorder to top                                                                                  import/first
+  189:25  warning  'D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\theme\index.ts' imported multiple times                               import/no-duplicates
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\navigation\types.ts
+  43:15  warning  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\auth\LoginScreen.tsx
+    9:3   warning  'Image' is defined but never used                                                                                                                              @typescript-eslint/no-unused-vars
+   19:3   warning  'withSequence' is defined but never used                                                                                                                       @typescript-eslint/no-unused-vars
+   21:3   warning  'interpolate' is defined but never used                                                                                                                        @typescript-eslint/no-unused-vars
+   32:59  warning  'D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\theme\index.ts' imported multiple times                                                                    import/no-duplicates
+   60:6   warning  React Hook React.useEffect has missing dependencies: 'formOpacity', 'formTranslateY', and 'headerOpacity'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  371:1   warning  Import in body of module; reorder to top                                                                                                                       import/first
+  371:25  warning  'D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\theme\index.ts' imported multiple times                                                                    import/no-duplicates
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\auth\SplashScreen.tsx
+  10:3   warning  'interpolate' is defined but never used                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  11:3   warning  'runOnJS' is defined but never used                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+  20:16  warning  'height' is assigned a value but never used                                                                                                                                                                          @typescript-eslint/no-unused-vars
+  69:6   warning  React Hook useEffect has missing dependencies: 'logoOpacity', 'logoScale', 'navigation', 'progressWidth', 'taglineOpacity', 'textOpacity', and 'textTranslateY'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\dashboard\DashboardScreen.tsx
+   19:3   warning  'interpolate' is defined but never used                                                                                                    @typescript-eslint/no-unused-vars
+   28:59  warning  'D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\theme\index.ts' imported multiple times                                                import/no-duplicates
+   33:7   warning  'AnimatedText' is assigned a value but never used                                                                                          @typescript-eslint/no-unused-vars
+   45:6   warning  React Hook useEffect has missing dependencies: 'animatedValue' and 'duration'. Either include them or remove the dependency array          react-hooks/exhaustive-deps
+   47:9   warning  'animatedProps' is assigned a value but never used                                                                                         @typescript-eslint/no-unused-vars
+  103:6   warning  React Hook useEffect has missing dependencies: 'delay', 'opacity', and 'scale'. Either include them or remove the dependency array         react-hooks/exhaustive-deps
+  142:6   warning  React Hook useEffect has missing dependencies: 'index', 'opacity', and 'translateX'. Either include them or remove the dependency array    react-hooks/exhaustive-deps
+  214:10  warning  'searchQuery' is assigned a value but never used                                                                                           @typescript-eslint/no-unused-vars
+  214:23  warning  'setSearchQuery' is assigned a value but never used                                                                                        @typescript-eslint/no-unused-vars
+  215:10  warning  'showSearch' is assigned a value but never used                                                                                            @typescript-eslint/no-unused-vars
+  215:22  warning  'setShowSearch' is assigned a value but never used                                                                                         @typescript-eslint/no-unused-vars
+  239:6   warning  React Hook useEffect has missing dependencies: 'headerOpacity' and 'headerTranslateY'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  377:49  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                            react/no-unescaped-entities
+  645:1   warning  Import in body of module; reorder to top                                                                                                   import/first
+  645:25  warning  'D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\theme\index.ts' imported multiple times                                                import/no-duplicates
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\inspections\DigitalChecklistScreen.tsx
+   16:3   warning  'withSpring' is defined but never used             @typescript-eslint/no-unused-vars
+   22:16  warning  'Button' is defined but never used                 @typescript-eslint/no-unused-vars
+   26:7   warning  'AnimatedView' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  141:9   warning  'contentStyle' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\inspections\DocumentVerificationScreen.tsx
+   24:24  warning  'StatusBadge' is defined but never used                                                                                                                                                             @typescript-eslint/no-unused-vars
+   52:6   warning  React Hook React.useEffect has missing dependencies: 'index', 'opacity', and 'translateX'. Either include them or remove the dependency array                                                       react-hooks/exhaustive-deps
+  251:25  error    React Hook "useSharedValue" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?    react-hooks/rules-of-hooks
+  253:3   error    React Hook "React.useEffect" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?   react-hooks/rules-of-hooks
+  255:6   warning  React Hook React.useEffect has a missing dependency: 'headerOpacity'. Either include it or remove the dependency array                                                                              react-hooks/exhaustive-deps
+  257:31  error    React Hook "useAnimatedStyle" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\inspections\EvidenceUploadScreen.tsx
+  25:10  warning  'Card' is defined but never used                                                                                                          @typescript-eslint/no-unused-vars
+  55:6   warning  React Hook React.useEffect has missing dependencies: 'index', 'opacity', and 'scale'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\inspections\FinalReportScreen.tsx
+  15:3  warning  'useSharedValue' is defined but never used    @typescript-eslint/no-unused-vars
+  16:3  warning  'useAnimatedStyle' is defined but never used  @typescript-eslint/no-unused-vars
+  17:3  warning  'withTiming' is defined but never used        @typescript-eslint/no-unused-vars
+  18:3  warning  'withSpring' is defined but never used        @typescript-eslint/no-unused-vars
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\inspections\InspectionDetailsScreen.tsx
+   50:6   warning  React Hook React.useEffect has missing dependencies: 'delay', 'opacity', and 'scale'. Either include them or remove the dependency array                                                            react-hooks/exhaustive-deps
+  141:25  error    React Hook "useSharedValue" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?    react-hooks/rules-of-hooks
+  142:29  error    React Hook "useSharedValue" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?    react-hooks/rules-of-hooks
+  144:3   error    React Hook "React.useEffect" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?   react-hooks/rules-of-hooks
+  147:6   warning  React Hook React.useEffect has missing dependencies: 'contentTranslateY' and 'headerOpacity'. Either include them or remove the dependency array                                                    react-hooks/exhaustive-deps
+  149:31  error    React Hook "useAnimatedStyle" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  153:32  error    React Hook "useAnimatedStyle" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\inspections\InspectionModeScreen.tsx
+   8:15  warning  'RNAnimated' is defined but never used                                                                                              @typescript-eslint/no-unused-vars
+  71:6   warning  React Hook useEffect has missing dependencies: 'pulseOpacity' and 'pulseScale'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\inspections\InspectionsScreen.tsx
+   55:6  warning  React Hook React.useEffect has missing dependencies: 'index', 'opacity', and 'translateY'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  125:9  warning  'navigation' is assigned a value but never used                                                                                                @typescript-eslint/no-unused-vars
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\inspections\ScheduleVisitScreen.tsx
+   23:24  warning  'Input' is defined but never used                                                                                                                                                                   @typescript-eslint/no-unused-vars
+  107:26  error    React Hook "useSharedValue" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?    react-hooks/rules-of-hooks
+  108:29  error    React Hook "useSharedValue" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?    react-hooks/rules-of-hooks
+  110:3   error    React Hook "React.useEffect" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?   react-hooks/rules-of-hooks
+  113:6   warning  React Hook React.useEffect has missing dependencies: 'contentOpacity' and 'contentTranslateY'. Either include them or remove the dependency array                                                   react-hooks/exhaustive-deps
+  115:25  error    React Hook "useAnimatedStyle" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  180:14  error    'TextInput' is not defined                                                                                                                                                                          react/jsx-no-undef
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\inspections\TimelineScreen.tsx
+  43:6  warning  React Hook React.useEffect has missing dependencies: 'index', 'lineHeight', 'opacity', and 'translateX'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\notifications\NotificationsScreen.tsx
+  23:28  warning  'Badge' is defined but never used                                                                                                              @typescript-eslint/no-unused-vars
+  56:6   warning  React Hook React.useEffect has missing dependencies: 'index', 'opacity', and 'translateX'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\profile\EditProfileScreen.tsx
+  19:27  warning  'BorderRadius' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\screens\profile\ProfileScreen.tsx
+   54:6  warning  React Hook React.useEffect has missing dependencies: 'delay', 'opacity', and 'translateX'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  106:6  warning  React Hook React.useEffect has missing dependencies: 'headerOpacity' and 'headerScale'. Either include them or remove the dependency array     react-hooks/exhaustive-deps
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\services\api.ts
+  24:7  warning  'API_BASE_URL' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\4th sem\EDI 4TH SEM\InspectionOfficerAppNew\src\services\dummyData.ts
+  1:83  warning  'FinalReport' is defined but never used  @typescript-eslint/no-unused-vars
+
+Γ£û 98 problems (36 errors, 62 warnings)
+  0 errors and 6 warnings potentially fixable with the `--fix` option.
+

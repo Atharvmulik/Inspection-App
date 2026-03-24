@@ -1,0 +1,28 @@
+src/screens/inspections/InspectionsScreen.tsx(53,24): error TS2304: Cannot find name 'withDelay'.
+src/screens/inspections/InspectionsScreen.tsx(54,21): error TS2304: Cannot find name 'withDelay'.
+src/screens/inspections/InspectionsScreen.tsx(249,9): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: FlatListProps<Inspection>): FlatList<Inspection>', gave the following error.
+    Type 'false | Element' is not assignable to type 'ReactElement<unknown, string | JSXElementConstructor<any>> | ComponentType<any> | null | undefined'.
+      Type 'false' is not assignable to type 'ReactElement<unknown, string | JSXElementConstructor<any>> | ComponentType<any> | null | undefined'.
+  Overload 2 of 2, '(props: FlatListProps<Inspection>, context: any): FlatList<Inspection>', gave the following error.
+    Type 'false | Element' is not assignable to type 'ReactElement<unknown, string | JSXElementConstructor<any>> | ComponentType<any> | null | undefined'.
+      Type 'false' is not assignable to type 'ReactElement<unknown, string | JSXElementConstructor<any>> | ComponentType<any> | null | undefined'.
+src/screens/inspections/ScheduleVisitScreen.tsx(180,14): error TS2304: Cannot find name 'TextInput'.
+src/screens/notifications/NotificationsScreen.tsx(54,24): error TS2304: Cannot find name 'withDelay'.
+src/screens/notifications/NotificationsScreen.tsx(55,21): error TS2304: Cannot find name 'withDelay'.
+src/screens/notifications/NotificationsScreen.tsx(80,17): error TS2322: Type '(false | { marginBottom: number; } | { borderLeftWidth: number; borderLeftColor: string; })[]' is not assignable to type 'ViewStyle'.
+  Types of property 'filter' are incompatible.
+    Type '{ <S extends false | { marginBottom: number; } | { borderLeftWidth: number; borderLeftColor: string; }>(predicate: (value: false | { marginBottom: number; } | { borderLeftWidth: number; borderLeftColor: string; }, index: number, array: (false | ... 1 more ... | { ...; })[]) => value is S, thisArg?: any): S[]; (predi...' is not assignable to type 'string | readonly FilterFunction[] | undefined'.
+src/screens/notifications/NotificationsScreen.tsx(226,9): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: FlatListProps<Notification>): FlatList<Notification>', gave the following error.
+    Type 'false | Element' is not assignable to type 'ReactElement<unknown, string | JSXElementConstructor<any>> | ComponentType<any> | null | undefined'.
+      Type 'false' is not assignable to type 'ReactElement<unknown, string | JSXElementConstructor<any>> | ComponentType<any> | null | undefined'.
+  Overload 2 of 2, '(props: FlatListProps<Notification>, context: any): FlatList<Notification>', gave the following error.
+    Type 'false | Element' is not assignable to type 'ReactElement<unknown, string | JSXElementConstructor<any>> | ComponentType<any> | null | undefined'.
+      Type 'false' is not assignable to type 'ReactElement<unknown, string | JSXElementConstructor<any>> | ComponentType<any> | null | undefined'.
+src/screens/profile/EditProfileScreen.tsx(118,17): error TS2322: Type '{ label: string; value: string | undefined; icon: string; disabled: true; helperText: string; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'disabled' does not exist on type 'IntrinsicAttributes & InputProps'.
+src/screens/profile/EditProfileScreen.tsx(126,17): error TS2322: Type '{ label: string; value: string | undefined; icon: string; disabled: true; helperText: string; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'disabled' does not exist on type 'IntrinsicAttributes & InputProps'.
+src/screens/profile/ProfileScreen.tsx(52,24): error TS2304: Cannot find name 'withDelay'.
+src/screens/profile/ProfileScreen.tsx(53,21): error TS2304: Cannot find name 'withDelay'.

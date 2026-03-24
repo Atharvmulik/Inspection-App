@@ -1,0 +1,7 @@
+{
+  "name": "InspectionOfficerApp",
+  "displayName": "EduInspect",
+  "plugins": [
+    "expo-router"
+  ]
+}
